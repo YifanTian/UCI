@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="460.0" prefWidth="270.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.UserManagementScene.UserManagemantSceneController">
+   <children>
+      <ListView fx:id="usersListView" layoutX="10.0" layoutY="230.0" prefHeight="180.0" prefWidth="250.0" AnchorPane.bottomAnchor="50.0" />
+      <Button fx:id="deleteSelectedUserButton" layoutX="10.0" layoutY="420.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="119.0" text="Delete Selected" />
+      <Label layoutX="10.0" layoutY="199.0" text="Current Users">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="10.0" layoutY="10.0" text="Create a User">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="usernameField" layoutX="10.0" layoutY="39.0" prefHeight="26.0" prefWidth="250.0" promptText="Username *" />
+      <TextField fx:id="hostField" layoutX="10.0" layoutY="111.0" prefHeight="26.0" prefWidth="250.0" promptText="Host (defaults to localhost)" />
+      <PasswordField fx:id="passwordField" layoutX="10.0" layoutY="75.0" prefHeight="26.0" prefWidth="250.0" promptText="Password *" />
+      <Button fx:id="createUserButton" layoutX="10.0" layoutY="147.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="250.0" text="Create User" />
+      <Separator layoutX="10.0" layoutY="184.0" prefHeight="0.0" prefWidth="250.0" />
+      <Button fx:id="deselectUserButton" layoutX="141.0" layoutY="420.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="119.0" text="Deselect" />
+   </children>
+</AnchorPane>

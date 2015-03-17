@@ -1,0 +1,12 @@
+# Uncomment this line to define a global platform for your project
+# platform :ios, '8.0'
+
+target 'FabFlix' do
+pod "SwiftCSV"
+use_frameworks!
+end
+
+target 'FabFlixTests' do
+
+end
+

@@ -1,0 +1,503 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0099E749D207DFA28727FB5E /* Pods-FabFlix-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E80CAF473F6BC4AE554C17DC /* Pods-FabFlix-dummy.m */; };
+		11C4A6C660138C9F5AB08C56 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6636903C60731BEEE1F985E4 /* Foundation.framework */; };
+		23C7382B21D683B3EF2A339C /* CSV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C708FDCF31E65E4362FC8B /* CSV.swift */; };
+		3F53538C945715C45B34DB48 /* Pods-FabFlix-SwiftCSV-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 43DED749E55891BE57E766A1 /* Pods-FabFlix-SwiftCSV-dummy.m */; };
+		64E49C34FED2831B6DF82178 /* Pods-FabFlix-SwiftCSV-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 20B6D1476F62EE3E2ED50CAA /* Pods-FabFlix-SwiftCSV-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A9D107EC240B25F35A595B5 /* Pods-FabFlix-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 75C2A024E6DAA19694731C23 /* Pods-FabFlix-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E60861651BA0E4EE53E9A682 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6636903C60731BEEE1F985E4 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7530BC274BF63B45B3B839F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2969FC77E0356D64B85010C2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 59BB70615071697C65A63130;
+			remoteInfo = "Pods-FabFlix-SwiftCSV";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04BD5C22B214B21A0D9A9321 /* Pods-FabFlix-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FabFlix-environment.h"; sourceTree = "<group>"; };
+		157864BD04D4EE853790DA99 /* Pods-FabFlix-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FabFlix-resources.sh"; sourceTree = "<group>"; };
+		180DFCDDA31CBAD4039BE2D9 /* Pods-FabFlix.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FabFlix.release.xcconfig"; sourceTree = "<group>"; };
+		20B6D1476F62EE3E2ED50CAA /* Pods-FabFlix-SwiftCSV-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FabFlix-SwiftCSV-umbrella.h"; sourceTree = "<group>"; };
+		24C2DF30F3CCB92C3A84A94A /* Pods-FabFlix-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FabFlix-acknowledgements.plist"; sourceTree = "<group>"; };
+		27C708FDCF31E65E4362FC8B /* CSV.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CSV.swift; path = SwiftCSV/CSV.swift; sourceTree = "<group>"; };
+		43DED749E55891BE57E766A1 /* Pods-FabFlix-SwiftCSV-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FabFlix-SwiftCSV-dummy.m"; sourceTree = "<group>"; };
+		49C37B0A84DEA8AB0BA4B9FB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B24D2A065401FED2F40E327 /* Pods-FabFlix-SwiftCSV.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-FabFlix-SwiftCSV.modulemap"; sourceTree = "<group>"; };
+		6636903C60731BEEE1F985E4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		66B6F2BD264586D16CC87353 /* Pods-FabFlix.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FabFlix.debug.xcconfig"; sourceTree = "<group>"; };
+		6DF55701534A658C9F749FA5 /* Pods-FabFlix-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FabFlix-frameworks.sh"; sourceTree = "<group>"; };
+		75C2A024E6DAA19694731C23 /* Pods-FabFlix-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FabFlix-umbrella.h"; sourceTree = "<group>"; };
+		8568CFA9F77C307B00674277 /* Pods-FabFlix.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-FabFlix.modulemap"; sourceTree = "<group>"; };
+		888A2FAF04470152C4BDCD42 /* Pods-FabFlix-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FabFlix-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A7C83B03CE055B6FFB5911B2 /* Pods-FabFlix-SwiftCSV-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FabFlix-SwiftCSV-prefix.pch"; sourceTree = "<group>"; };
+		A99A0F632EF1E92D96635E18 /* Pods-FabFlix-SwiftCSV.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FabFlix-SwiftCSV.xcconfig"; sourceTree = "<group>"; };
+		C158C56F2E48585345BE806D /* SwiftCSV.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftCSV.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C67AB624581AEF9FE12F5DEE /* Pods_FabFlix.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FabFlix.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C78E2EF202D2220509BDBFF0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E80CAF473F6BC4AE554C17DC /* Pods-FabFlix-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FabFlix-dummy.m"; sourceTree = "<group>"; };
+		E8FAF707390A4FDD6BA23A78 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F3ED8D55740999C007B6F8AC /* Pods-FabFlix-SwiftCSV-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FabFlix-SwiftCSV-Private.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		921C17980F5C87FCF25A4852 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E60861651BA0E4EE53E9A682 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE705AB2C5B03E23A67137B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11C4A6C660138C9F5AB08C56 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		123B5C5288073D64EBE3F752 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A625D42E82E75FCE44366E0F /* Pods-FabFlix */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		44CA7FBE9714A7B76C1DC3EF = {
+			isa = PBXGroup;
+			children = (
+				E8FAF707390A4FDD6BA23A78 /* Podfile */,
+				4749DBC5DEA20F5430876AF0 /* Frameworks */,
+				EB9CFAD28EB6EA1685C78AB1 /* Pods */,
+				D1A0A5E2F13923A2C01D1A57 /* Products */,
+				123B5C5288073D64EBE3F752 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		4749DBC5DEA20F5430876AF0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C6577E4B4EF768EC72E555E6 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4F2351594896B424CABF35B6 /* SwiftCSV */ = {
+			isa = PBXGroup;
+			children = (
+				27C708FDCF31E65E4362FC8B /* CSV.swift */,
+				F5E35228E7F052A6EC89D16C /* Support Files */,
+			);
+			path = SwiftCSV;
+			sourceTree = "<group>";
+		};
+		A625D42E82E75FCE44366E0F /* Pods-FabFlix */ = {
+			isa = PBXGroup;
+			children = (
+				C78E2EF202D2220509BDBFF0 /* Info.plist */,
+				8568CFA9F77C307B00674277 /* Pods-FabFlix.modulemap */,
+				888A2FAF04470152C4BDCD42 /* Pods-FabFlix-acknowledgements.markdown */,
+				24C2DF30F3CCB92C3A84A94A /* Pods-FabFlix-acknowledgements.plist */,
+				E80CAF473F6BC4AE554C17DC /* Pods-FabFlix-dummy.m */,
+				04BD5C22B214B21A0D9A9321 /* Pods-FabFlix-environment.h */,
+				6DF55701534A658C9F749FA5 /* Pods-FabFlix-frameworks.sh */,
+				157864BD04D4EE853790DA99 /* Pods-FabFlix-resources.sh */,
+				75C2A024E6DAA19694731C23 /* Pods-FabFlix-umbrella.h */,
+				66B6F2BD264586D16CC87353 /* Pods-FabFlix.debug.xcconfig */,
+				180DFCDDA31CBAD4039BE2D9 /* Pods-FabFlix.release.xcconfig */,
+			);
+			name = "Pods-FabFlix";
+			path = "Target Support Files/Pods-FabFlix";
+			sourceTree = "<group>";
+		};
+		C6577E4B4EF768EC72E555E6 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6636903C60731BEEE1F985E4 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		D1A0A5E2F13923A2C01D1A57 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C67AB624581AEF9FE12F5DEE /* Pods_FabFlix.framework */,
+				C158C56F2E48585345BE806D /* SwiftCSV.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EB9CFAD28EB6EA1685C78AB1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4F2351594896B424CABF35B6 /* SwiftCSV */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F5E35228E7F052A6EC89D16C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				49C37B0A84DEA8AB0BA4B9FB /* Info.plist */,
+				4B24D2A065401FED2F40E327 /* Pods-FabFlix-SwiftCSV.modulemap */,
+				A99A0F632EF1E92D96635E18 /* Pods-FabFlix-SwiftCSV.xcconfig */,
+				F3ED8D55740999C007B6F8AC /* Pods-FabFlix-SwiftCSV-Private.xcconfig */,
+				43DED749E55891BE57E766A1 /* Pods-FabFlix-SwiftCSV-dummy.m */,
+				A7C83B03CE055B6FFB5911B2 /* Pods-FabFlix-SwiftCSV-prefix.pch */,
+				20B6D1476F62EE3E2ED50CAA /* Pods-FabFlix-SwiftCSV-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-FabFlix-SwiftCSV";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4DE1135B674EA1CF60AC0EC1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A9D107EC240B25F35A595B5 /* Pods-FabFlix-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7B15DF9E57E75C9E6CD42DA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64E49C34FED2831B6DF82178 /* Pods-FabFlix-SwiftCSV-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		59BB70615071697C65A63130 /* Pods-FabFlix-SwiftCSV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A11F7AECD0EE7D3696905870 /* Build configuration list for PBXNativeTarget "Pods-FabFlix-SwiftCSV" */;
+			buildPhases = (
+				218EC094E99031E3E3F45A1C /* Sources */,
+				921C17980F5C87FCF25A4852 /* Frameworks */,
+				C7B15DF9E57E75C9E6CD42DA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-FabFlix-SwiftCSV";
+			productName = "Pods-FabFlix-SwiftCSV";
+			productReference = C158C56F2E48585345BE806D /* SwiftCSV.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		61B90AEDD87261B78A654E18 /* Pods-FabFlix */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04B4609DBE70EA6E5CA28AF7 /* Build configuration list for PBXNativeTarget "Pods-FabFlix" */;
+			buildPhases = (
+				C249974F5FA0FCB9AB939C36 /* Sources */,
+				CE705AB2C5B03E23A67137B3 /* Frameworks */,
+				4DE1135B674EA1CF60AC0EC1 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E81A2B3B8BE8700EF09CD5C4 /* PBXTargetDependency */,
+			);
+			name = "Pods-FabFlix";
+			productName = "Pods-FabFlix";
+			productReference = C67AB624581AEF9FE12F5DEE /* Pods_FabFlix.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2969FC77E0356D64B85010C2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+			};
+			buildConfigurationList = B6129C5DB5B237D576B52308 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 44CA7FBE9714A7B76C1DC3EF;
+			productRefGroup = D1A0A5E2F13923A2C01D1A57 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				61B90AEDD87261B78A654E18 /* Pods-FabFlix */,
+				59BB70615071697C65A63130 /* Pods-FabFlix-SwiftCSV */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		218EC094E99031E3E3F45A1C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23C7382B21D683B3EF2A339C /* CSV.swift in Sources */,
+				3F53538C945715C45B34DB48 /* Pods-FabFlix-SwiftCSV-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C249974F5FA0FCB9AB939C36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0099E749D207DFA28727FB5E /* Pods-FabFlix-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E81A2B3B8BE8700EF09CD5C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-FabFlix-SwiftCSV";
+			target = 59BB70615071697C65A63130 /* Pods-FabFlix-SwiftCSV */;
+			targetProxy = 7530BC274BF63B45B3B839F1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		27942C0D62AA341C262BB5BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 180DFCDDA31CBAD4039BE2D9 /* Pods-FabFlix.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-FabFlix/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-FabFlix/Pods-FabFlix.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_FabFlix;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		488104C8FD93700B602B841D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5DB52DA885F17BE18B83BDDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66B6F2BD264586D16CC87353 /* Pods-FabFlix.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-FabFlix/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-FabFlix/Pods-FabFlix.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_FabFlix;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6ACEF320447E3F2553F6D0A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B337AB2D63B09FEC0926C8EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3ED8D55740999C007B6F8AC /* Pods-FabFlix-SwiftCSV-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-FabFlix-SwiftCSV/Pods-FabFlix-SwiftCSV-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-FabFlix-SwiftCSV/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-FabFlix-SwiftCSV/Pods-FabFlix-SwiftCSV.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SwiftCSV;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EFD264D30B01E94338FA4C5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3ED8D55740999C007B6F8AC /* Pods-FabFlix-SwiftCSV-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-FabFlix-SwiftCSV/Pods-FabFlix-SwiftCSV-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-FabFlix-SwiftCSV/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-FabFlix-SwiftCSV/Pods-FabFlix-SwiftCSV.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SwiftCSV;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04B4609DBE70EA6E5CA28AF7 /* Build configuration list for PBXNativeTarget "Pods-FabFlix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DB52DA885F17BE18B83BDDD /* Debug */,
+				27942C0D62AA341C262BB5BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A11F7AECD0EE7D3696905870 /* Build configuration list for PBXNativeTarget "Pods-FabFlix-SwiftCSV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFD264D30B01E94338FA4C5F /* Debug */,
+				B337AB2D63B09FEC0926C8EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6129C5DB5B237D576B52308 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6ACEF320447E3F2553F6D0A1 /* Debug */,
+				488104C8FD93700B602B841D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2969FC77E0356D64B85010C2 /* Project object */;
+}
