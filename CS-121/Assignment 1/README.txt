@@ -1,4 +1,4 @@
-Viral Shah 30696236
+Viral Shah
 Assignment 1
 
 Coded using Python3 
