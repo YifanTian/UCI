@@ -1,0 +1,15 @@
+Assumptions:
+I only catch palindromes of length 3 or more
+Palindromes are only valid if they are a word or spanning multiple words, palindromes that end in between a word are not valid
+Palindromes can not begin or end with a space
+I return palindromes that are substrings of other palindromes
+
+
+
+
+My program runs n^2 squared complexity since I iterate over each character and have two pointers on each side of it (before and after) which expand
+outwards to build progressively larger palindromes and adding them to my list of palindromes if they are valid. This a variation of the traditional
+dynamic programming algorithm Manacher's Algorithm for finding the longest Palindrome in a string. So inside my loop I have two linearly running
+while loops for the case of odd length and even length strings. I could have padded them with say a # symbol but the functional complexity increased without
+giving any benefit to time or space complexity. In general terms two nested loops lead to a N^2 complexity
+

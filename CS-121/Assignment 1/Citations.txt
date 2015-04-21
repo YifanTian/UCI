@@ -1,0 +1,15 @@
+Code Citations:
+
+
+Removing Punctuation:
+http://stackoverflow.com/questions/265960/best-way-to-strip-punctuation-from-a-string-in-python (Determined tables to be the fastest method of doing so)
+
+
+Generating 2-grams
+The Pairwise code for the 2-gram method was derived from https://docs.python.org/2/library/itertools.html (9.7.2 Recepies)
+
+Idea of comparing 2 items in the sorted method
+http://stackoverflow.com/questions/9376384/sort-a-list-of-tuples-depending-on-two-elements
+
+
+Inspiration for Palindrome Algorithm comes from Manacher's Algorithm for finding the Longest Palindrome Substring in a String using Dynamic Programming
